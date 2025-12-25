@@ -97,7 +97,7 @@ loads the beta-coefficient values from the result file.
 the_biogeme_celas = bio.BIOGEME(database, simulate)
 the_biogeme_celas.modelName = "Cross_elasticities_final"
 betas = the_biogeme_celas.free_beta_names
-results = res.bioResults(pickle_file='\\\\home.org.aalto.fi\\isoranv1\\data\\myenv\\ML_final.pickle')
+results = res.bioResults(pickle_file='removed')
 betaValues = results.get_beta_values(betas)
 
 """
