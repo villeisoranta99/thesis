@@ -76,7 +76,7 @@ loads the beta-coefficient values from the result file.
 """
 
 the_biogeme_elas = bio.BIOGEME(database, simulate)
-results = res.bioResults(pickle_file='\\\\home.org.aalto.fi\\isoranv1\\data\\myenv\\ML_final.pickle')
+results = res.bioResults(pickle_file='removed')
 simulated_values = the_biogeme_elas.simulate(results.get_beta_values())
 
 """
