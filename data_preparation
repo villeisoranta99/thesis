@@ -12,16 +12,16 @@ import os
 """
 Reads the data into  separate databases for different purposes.
 """
-df = pd.read_csv ('//secwork.org.aalto.fi/Isoranta_thesis/data_PT_24_10.csv', sep = ',') # read the csv
+df = pd.read_csv ('removed', sep = ',') # read the csv
 database = db.Database ('example', df ) # save the imported CSV into a database
 
-df_pa = pd.read_csv ('//secwork.org.aalto.fi/Isoranta_thesis/data_PT_24_10.csv', sep = ',') # read the csv
+df_pa = pd.read_csv ('removed', sep = ',') # read the csv
 database_SP_PA = db.Database ('example_pa', df_pa) # save the imported CSV into a database
 
-df_full = pd.read_csv ('//secwork.org.aalto.fi/Isoranta_thesis/data_PT_NOPT_24_10.csv', sep = ',') # read the csv
+df_full = pd.read_csv ('removed', sep = ',') # read the csv
 database_full = db.Database ('full', df_full ) # save the imported CSV into a database
 
-dfMASA = pd.read_csv ('//secwork.org.aalto.fi/Isoranta_thesis/data_PT_24_10.csv', sep = ',') # read the csv
+dfMASA = pd.read_csv ('removed', sep = ',') # read the csv
 database_MASA = db.Database ('MASA', dfMASA ) # save the imported CSV into a database
 
 """
